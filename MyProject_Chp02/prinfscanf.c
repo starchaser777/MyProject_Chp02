@@ -49,7 +49,7 @@ int main(void)
 	// 프로젝트
 	// 경찰관이 범죄자의 정보를 입수 (조서 작성)
 	// 이름? 나이? 몸무게? 키? 범죄명?
-	char name[256];
+	/*char name[256];
 	printf("이름이 뭐예요? ");
 	scanf_s("%s", name, sizeof(name));
 
@@ -67,15 +67,56 @@ int main(void)
 
 	char what[256];
 	printf("무슨 범죄를 저질렀어요? ");
-	scanf_s("%s", what, sizeof(what));
+	scanf_s("%s", what, sizeof(what));*/
 
 	// 조서 내용 출력
-	printf("\n\n--- 범죄자 정보 ---\n");
+	/*printf("\n\n--- 범죄자 정보 ---\n");
 	printf(" 이름        : %s\n", name);
 	printf(" 나이        : %d\n", age);
 	printf(" 몸무게      : %.2f\n", weight);
 	printf(" 키          : %.2lf\n", height);
-	printf(" 범죄명      : %s\n", what);
+	printf(" 범죄명      : %s\n", what);*/
+
+	// 1분 퀴즈 1번
+	/*float f = 2121.1020f;
+	printf("%.3f\n", f);*/
+
+	// 1분 퀴즈 2번
+	/*char str1[256], str2[256];
+	printf("첫 번째 문자열을 입력하세요 : ");
+	scanf_s("%s", str1, sizeof(str1));
+	printf("두 번째 문자열을 입력하세요 : ");
+	scanf_s("%s", str2, sizeof(str2));
+	printf("첫 번째 문자열입니다 : %s\n", str1);
+	printf("두 번째 문자열입니다 : %s\n", str2);*/
+
+	// 셀프체크 - 경찰 조서 쓰기 프로그램을 활용한 신발 쇼핑몰의 회원 가입 프로그램
+	/*char name[256];
+	printf("이름을 입력하세요 : ");
+	scanf_s("%s", name, sizeof(name));
+
+	char id[256];
+	printf("id를 입력하세요 : ");
+	scanf_s("%s", id, sizeof(id));
+
+	int age;
+	printf("나이를 숫자로 입력하세요 : ");
+	scanf_s("%d", &age);
+
+	char birthday[256];
+	printf("생일을 숫자로 입력하세요(월일, 예: 0720) : ");
+	scanf_s("%s", birthday, sizeof(birthday));
+
+	int shoes_size;
+	printf("신발 크기를 입력하세요(mm) : ");
+	scanf_s("%d", &shoes_size);
+
+	printf("\n\n --- 회원 정보 --- \n\n");
+	printf(" 이름         : %s\n", name);
+	printf(" id           : %s\n", id);
+	printf(" 나이         : %d\n", age);
+	printf(" 생일         : %s\n", birthday);
+	printf(" 신발 크기    : %d\n", shoes_size);*/
 
 	return 0;
 }
